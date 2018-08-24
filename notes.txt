@@ -8,3 +8,23 @@ We need to find minimum diff
 a. in abs(arr[l] + arr[r] -sum) < diff then update sum and result. 
 b. else if (arr[l] + arr[r] < sum) then l++ 
 c. else r--
+
+What does data before action mean? 
+
+Come up with data types first before going about solving a problem. (OOP)
+
+What are the componenets of a class? 
+
+Field (data member)
+Method (function member)
+
+What is encapsulation? 
+
+The fields an object/instance should only be read or written by methods of that instance class 
+
+What's the diffference btween public and private methods in a class? 
+
+public: visible anywhere 
+
+private: visible only to methods of own types 
+
