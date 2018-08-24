@@ -1,0 +1,10 @@
+Explain how to solve this problem in linear time: 
+Given a sorted array and a number x, find the pair in array whose sum is closest to x
+
+1. Initialize a variable diff as infinite (Diff is used to store the idfference between pair and x). 
+We need to find minimum diff 
+2. Initialize two index variable l and r in the iven sorted array ( one at l = 0 and r = n-1)
+3. Loop while l < r 
+a. in abs(arr[l] + arr[r] -sum) < diff then update sum and result. 
+b. else if (arr[l] + arr[r] < sum) then l++ 
+c. else r--
