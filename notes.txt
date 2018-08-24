@@ -28,3 +28,16 @@ public: visible anywhere
 
 private: visible only to methods of own types 
 
+What is same-origin policy? When is it not enforced? 
+
+Prvetns document or script load from one origin from getting or setting properties of a document from a different origin
+
+work arounds: 
+1. send cors headers that tell browser its ok
+2. writes a proxy (php script) that makes request 
+3. 3rd party proxy service 
+4. JSONP 
+
+what is JSONP?
+
+Padded json. uses script tag hacks to grab data from server and tells the server in advance what funciton it wants to be called when the data comes back. Incorporates data into DOM using a server that supports JSONP. 
