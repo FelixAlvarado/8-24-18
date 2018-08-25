@@ -57,3 +57,29 @@ What is partial funciton application?
 Xreating a new funciton by fixing some parametrs of the existing one 
 
 Different from currying which wraps functions over functions in order to trun a funciton over functions in order to turn tahtwoould normally accept muiltiple arguments, into one that accepts1 argument mutiple times over. 
+
+What is the differene bttween clas inheritence and class composition? 
+
+Class inheritence is is-a. a cat is a mammel so you would inherate 
+
+Class composition is has-a. a car has a steering wheel and a seat. Would inheret. The wheel would just be a feild. 
+
+What is method overriding? 
+
+When an object inherits a method  but it also has the method defined as part of its class. The inherited method is overidden by the current method. 
+
+What is polymorphism? 
+
+Calliin gthe method of an object depends on the object you're calling it from 
+
+if x and y are instance of two different classes, foo() would do two different things
+
+What are class fields  and class methods? 
+
+Methods and fields that are accessible via the class, not the instance. Essentially a glabal variable funciton that are availible via the class
+
+How do static and dynamic languages treat interfacs differently? 
+
+Dynamics: not formalized. Can call method 
+
+Static: must explicitly define and interface and specify what classes use interface
