@@ -41,3 +41,13 @@ work arounds:
 what is JSONP?
 
 Padded json. uses script tag hacks to grab data from server and tells the server in advance what funciton it wants to be called when the data comes back. Incorporates data into DOM using a server that supports JSONP. 
+
+Explain the time complexity of Quicksort 
+
+worst case O(n squared) when item is already sorted 
+best and average case O(nlogN)
+Quicksort is faster in practice than heap and merge sort 
+
+Explain the partition method with quicksort 
+
+It divides the gien array with elements smaller than the pivot on the left and larger elemtns on the right of it would have 2 pointers. One iterates through the array and the number at that pointer gets compared to the pv\ivot (last element of array). If the elemnt is smaller, you switch that element with the other point (starts at 0) and increase that pointer by one. At the ned, switch the pivot and the smaller pointer. 
