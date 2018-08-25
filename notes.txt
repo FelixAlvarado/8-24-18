@@ -51,3 +51,9 @@ Quicksort is faster in practice than heap and merge sort
 Explain the partition method with quicksort 
 
 It divides the gien array with elements smaller than the pivot on the left and larger elemtns on the right of it would have 2 pointers. One iterates through the array and the number at that pointer gets compared to the pv\ivot (last element of array). If the elemnt is smaller, you switch that element with the other point (starts at 0) and increase that pointer by one. At the ned, switch the pivot and the smaller pointer. 
+
+What is partial funciton application? 
+
+Xreating a new funciton by fixing some parametrs of the existing one 
+
+Different from currying which wraps functions over functions in order to trun a funciton over functions in order to turn tahtwoould normally accept muiltiple arguments, into one that accepts1 argument mutiple times over. 
